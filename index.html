@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -9,24 +9,26 @@
 <body>
  <div class="container">
   <h1 class="text-center mt-2 mb-4">Calculate the Type of Your Triangle</h1>
-  <form class="card bg-dark text-white">
-    <h3 class="card-header">Enter the side lengths of your triangle:</h3>
+  <div class="card bg-dark text-white">
+    <h3 class="card-header">Enter the side lengths of the triangle:</h3>
     <div class="card-body bg-secondary text-dark">
-      <div class="form-group text-white">
-        <label for="sideA">Side One</label>
-        <input type="number" class="form-control" id="sideA">
-      </div>
-      <div class="form-group text-white">
-        <label for="sideB">Side Two</label>
-        <input type="number" class="form-control" id="sideB">
-      </div>
-      <div class="form-group text-white"> 
-        <label for="sideC">Side Three</label>
-        <input type="number" class="form-control" id="sideC">
-      </div>
+      <form id="form">
+        <div class="form-group text-white">
+          <label for="sideA">Side One</label>
+          <input type="number" class="form-control" id="sideA">
+        </div>
+        <div class="form-group text-white">
+          <label for="sideB">Side Two</label>
+          <input type="number" class="form-control" id="sideB">
+        </div>
+        <div class="form-group text-white"> 
+          <label for="sideC">Side Three</label>
+          <input type="number" class="form-control" id="sideC">
+        </div>
+        <button type="submit" class="btn btn-dark">Calculate</button>
+      </form>
     </div>
-    <button type="submit" class="btn btn-dark">Primary</button>
-  </form>
+  </div>
  </div>
 </body>
 </html>
